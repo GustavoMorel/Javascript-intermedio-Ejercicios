@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Identificador de Emociones</title>
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Asociador de Emoticones con Emociones encontradas</h1>
+    </header>
+    <main>
+        <!--Seccion de tarjetas superiores-->
+        <section class="contenedor-tarjetas">
+            <div id="imagen-sugerida" class="imagen-sugerida">
+                <h2 class="subtitulo2">Imagen de la Emoción Encontrada</h2>
+                <img id="imagenEmocion" style="display:none;" width="200">
+                </div>
+            </div>
+            <div id="emocion-encontrada" class="emocion-encontrada">
+                <h2 class="subtitulo2">Emoción Encontrada en Cadena</h2>
+                <p id="resultadoEmocion"></p>
+
+            </div>
+        </section>
+
+        <section class="buscador-emociones">
+            <label for="inputTexto"><h2>Introduce una cadena de texto:</h2></label>
+            <input type="text" id="inputTexto" class="inputTexto">
+            <button class="btn" onclick="identificarEmocion()">Identificar Emoción</button>
+        </section>
+    </main>
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
