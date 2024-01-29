@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Nombres de Bandas de Forma Aleatoria</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <h1>Generador de Nombres de Bandas de Forma Aleatoria</h1>
+    </header>
+    <main>
+        <!--Seccion de tarjetas superiores-->
+        <section class="contenedor-tarjetas">
+            <div id="imagen-sugerida" class="imagen-sugerida">
+                <h2 class="subtitulo2">Imagen Sugerida</h2>
+                <div id="animales" class="animales">
+                </div>
+            </div>
+            <div id="color-sugerido" class="color-sugerido">
+                <h2 class="subtitulo2">Color Sugerido</h2>
+                <div id="coloresBanda" class="coloresBanda"></div>
+                <div id="coloresCodigo" class="coloresCodigo"></div>
+            
+            </div>
+        </section>
+
+        <section class="generador-nombres">
+            <div class="resultado-banda" id="resultado-banda"></div>
+            <button class="btn" onclick="generarYMostrarNombre()">Generar Nuevo Nombre</button>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
